@@ -20,7 +20,7 @@ import Utilies.WebDriverManager_Base_Class;
 
 
 
-public class LoginTest2 {
+public class LoginTest3 {
 	static WebDriver driver;
 	WebDriverManager_Base_Class objmanager;
 	static ExtentTest test;
