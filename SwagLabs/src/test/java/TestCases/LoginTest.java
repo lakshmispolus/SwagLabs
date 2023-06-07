@@ -40,7 +40,7 @@ public class LoginTest {
   
 	  String PageName = page.SwagLabsLogin("standard_user","secret_sauce");
       System.out.println(PageName);
-		if (PageName.contains("Swag Labsss")) {
+		if (PageName.contains("Swag Labs")) {
 			Assert.assertTrue(true, "Login Successfully");	
 			test.pass("Testing Passed - Login Successfully ");
 			screenshotPath=objmanager.screenshot(driver,"TestCase2Login");
